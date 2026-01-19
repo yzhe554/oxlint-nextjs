@@ -1,0 +1,19 @@
+{
+  "$schema": "./node_modules/oxlint/configuration_schema.json",
+  "ignorePatterns": [],
+  "categories": {
+    "correctness": "off",
+    "suspicious": "off",
+    "pedantic": "off",
+    "style": "off"
+  },
+  "plugins": [],
+  "jsPlugins": ["./js-plugins/index.ts"],
+  "rules": {
+    "test/nextjs-require-prefetch": "error",
+  },
+  "overrides": [],
+  "env": {
+    "builtin": true
+  }
+}
