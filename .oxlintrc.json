@@ -10,7 +10,7 @@
   "plugins": [],
   "jsPlugins": ["./js-plugins/index.ts"],
   "rules": {
-    "test/nextjs-require-prefetch": "error",
+    "test/nextjs-require-prefetch": "error"
   },
   "overrides": [],
   "env": {

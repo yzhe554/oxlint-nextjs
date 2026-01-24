@@ -1,0 +1,26 @@
+{
+  "$schema": "./node_modules/oxfmt/configuration_schema.json",
+  "ignorePatterns": [],
+  "experimentalSortImports": {
+    "customGroups": [
+      {
+        "elementNamePattern": ["@repo"],
+        "groupName": "internal-packages"
+      },
+      {
+        "elementNamePattern": ["@/"],
+        "groupName": "local-packages-alias"
+      },
+      {
+        "elementNamePattern": ["./", "../"],
+        "groupName": "local-packages-relative"
+      }
+    ],
+    "groups": [
+      ["import"],
+      ["internal-packages"],
+      ["local-packages-alias", "local-packages-relative"]
+    ],
+    "newlinesBetween": false
+  }
+}
