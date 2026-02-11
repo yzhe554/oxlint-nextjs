@@ -1,7 +1,7 @@
 // oxlint-disable no-unsafe-argument
 // oxlint-disable no-unsafe-call
 // oxlint-disable no-unsafe-return
-import { defineRule } from "oxlint";
+import { defineRule } from "@oxlint/plugins";
 
 const requirePrefetch = defineRule({
   meta: {

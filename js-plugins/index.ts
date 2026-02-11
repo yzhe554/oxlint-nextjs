@@ -1,4 +1,4 @@
-import { definePlugin } from "oxlint";
+import { definePlugin } from "@oxlint/plugins";
 import requirePrefetch from "./rules/nextjs-require-prefetch.ts";
 
 const plugin = definePlugin({

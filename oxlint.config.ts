@@ -11,7 +11,8 @@ export default defineConfig({
   "plugins": [],
   "jsPlugins": ["./js-plugins/index.ts"],
   "rules": {
-    "test/nextjs-require-prefetch": "error"
+    "test/nextjs-require-prefetch": "error",
+    "eqeqeq": ["error", "always", { "null": "ignore" }]
   },
   "overrides": [],
   "env": {
